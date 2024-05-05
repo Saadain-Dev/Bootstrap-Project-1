@@ -1,0 +1,116 @@
+
+/* .link i:hover{
+    color: #eb2b63;
+} */
+
+.hero-section {
+    background-image: url(https://preview.colorlib.com/theme/ithost/img/bg.jpg.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+.hero-content,
+.about-contant {
+    margin-inline: clamp(1.25rem, -1.7105rem + 14.8026vw, 12.5rem);
+}
+
+.hero-content h1,
+.about-contant h1 {
+    font-size: clamp(1.8125rem, 1.1382rem + 3.3717vw, 4.375rem);
+    line-height: 1;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: clamp(0.875rem, 0.7763rem + 0.4934vw, 1.25rem);
+}
+
+.ball {
+    width: 80px;
+    height: 80px;
+}
+
+.ball i {
+    line-height: 80px;
+}
+
+.service-form {
+    height: 450px;
+    background-image: url(https://preview.colorlib.com/theme/ithost/img/domain-bg.jpg);
+}
+
+.slider-content {
+    background: rgb(177, 196, 232);
+}
+
+.slider-content i {
+    right: 8%;
+    bottom: -22px;
+    color: rgb(177, 196, 232);
+    font-size: 50px;
+}
+
+.slide-head {
+    line-height: 14px;
+}
+
+.slider-1 button {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.send {
+    min-height: 200px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/ithost/img/banner-bg.jpg);
+}
+
+.footer {
+    background: #200545;
+}
+
+.f-img {
+    width: 75px;
+    height: 75px;
+}
+
+.rocket {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 500px;
+    animation: rocket 5s linear infinite;
+    /* Adjusted timing function to 'linear' for smoother animation */
+}
+
+@keyframes rocket {
+    0% {
+        bottom: 25px;
+        right: 25px;
+    }
+
+    25% {
+        bottom: 0;
+        right: 25px;
+    }
+
+    50% {
+        bottom: 0;
+        right: 0;
+    }
+
+    75% {
+        bottom: 25px;
+        right: 0;
+    }
+
+    100% {
+        bottom: 25px;
+        right: 25px;
+    }
+}
